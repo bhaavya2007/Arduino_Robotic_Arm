@@ -49,3 +49,43 @@ The OLED uses I2C address `0x3C`.
 3. The Y-axis controls the angle of one servo motor at a time.
 4. Pressing the joystick button switches between the two servo motors.
 5. The OLED display indicates the selected motor through the position of an eye.
+6. The buzzer provides feedback whenever the selected motor changes.
+
+The servo motors start at 90 degrees and their positions are adjusted in increments of 5 degrees.
+
+## Libraries Used
+
+- Stepper.h
+- Servo.h
+- Wire.h
+- Adafruit_GFX.h
+- Adafruit_SSD1306.h
+
+## Project Demonstration
+
+A demonstration video of the working robotic arm is included in this repository.
+
+## What I Learned
+
+Through this project, I gained experience with:
+
+- Controlling servo and stepper motors using Arduino.
+- Reading analog inputs from a joystick.
+- Using a push button to switch between different motor controls.
+- Interfacing an OLED display using I2C communication.
+- Integrating hardware components into a single project.
+- Troubleshooting hardware connections and programming issues.
+
+## Future Improvements
+
+Possible future improvements include:
+
+- Improving the mechanical structure of the robotic arm.
+- Adding wireless control.
+- Implementing smoother motor movement.
+
+## Author
+
+Bhaavya Jain  
+Electronics and Computer Engineering  
+Thapar Institute of Engineering and Technology
