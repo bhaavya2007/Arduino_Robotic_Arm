@@ -65,6 +65,13 @@ The servo motors start at 90 degrees and their positions are adjusted in increme
 
 A demonstration video of the working robotic arm is included in this repository.
 
+
+https://github.com/user-attachments/assets/02c4c831-15cb-4321-8ab3-d1e71c339d5c
+
+
+
+
+
 ## What I Learned
 
 Through this project, I gained experience with:
